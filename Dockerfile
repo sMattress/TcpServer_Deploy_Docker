@@ -1,8 +1,8 @@
 FROM java:8
 
-RUN rm -rf /usr/local/netty
-ADD netty /usr/local/netty
+RUN rm -rf /usr/local/sMattress/TcpServer
+ADD project /usr/local/sMattress/TcpServer
 
 RUN echo "Asia/Shanghai" > /etc/timezone
 
-ENTRYPOINT java -jar  /usr/local/netty/intelligent-mattress-netty.jar
+ENTRYPOINT java -jar  /usr/local/sMattress/TcpServer/server.jar
