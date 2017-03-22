@@ -6,4 +6,4 @@
 
 ## Dockerfile
 
-用于在`Docker阿里云镜像`构建Docker镜像，貌似这货很不稳定啊。
+用于在`Docker阿里云镜像`构建Docker镜像，貌似这货很不稳定啊，阿里貌似很不上心啊。
